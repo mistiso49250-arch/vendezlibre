@@ -38,6 +38,7 @@
   --color-brand: var(--brand);
   --color-brand-accent: var(--brand-accent);
   --color-success: var(--success);
+  --color-warning: var(--warning);
   --color-popover-foreground: var(--popover-foreground);
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
@@ -73,6 +74,16 @@
   --brand: #0f4c75;
   --brand-accent: #0ea5e9;
   --success: #0f766e;
+  --warning: #b45309;
+  --spacing-page-x: clamp(1.5rem, 4vw, 4rem);
+  --spacing-section-y: clamp(4rem, 8vw, 7.5rem);
+  --shadow-xs: 0 1px 2px rgb(15 23 42 / 0.06);
+  --shadow-button: 0 10px 24px rgb(15 76 117 / 0.16);
+  --shadow-button-hover: 0 14px 34px rgb(15 76 117 / 0.2);
+  --shadow-card:
+    0 1px 2px rgb(15 23 42 / 0.04), 0 12px 32px rgb(15 23 42 / 0.06);
+  --shadow-card-elevated: 0 18px 48px rgb(15 23 42 / 0.1);
+  --shadow-modal: 0 24px 80px rgb(15 23 42 / 0.18);
   --chart-1: #0f4c75;
   --chart-2: #0ea5e9;
   --chart-3: #0f766e;
